@@ -8,7 +8,7 @@
 
 #include "FWCore/Common/interface/TriggerNames.h"
 #include "FWCore/Common/interface/TriggerResultsByName.h"
-#include "HLTDAS2020/HLTDASexercise/interface/METTrigAnalyzerMiniAOD.h"
+#include "TriggerShortExercise2020/TriggerExercise/interface/METTrigAnalyzerMiniAOD.h"
 
 #include "DataFormats/HLTReco/interface/TriggerObject.h"
 #include "DataFormats/VertexReco/interface/Vertex.h"

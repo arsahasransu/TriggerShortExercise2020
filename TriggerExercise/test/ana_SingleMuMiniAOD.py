@@ -45,7 +45,7 @@ process.TFileService = cms.Service("TFileService",
 
 process.singleMuTrigAnalyzerMiniAOD = cms.EDAnalyzer("SingleMuTrigAnalyzerMiniAOD")
 process.singleMuTrigAnalyzerMiniAOD.triggerName = cms.untracked.string("HLT_IsoMu24_v2")
-process.singleMuTrigAnalyzerMiniAOD.verbose = cms.untracked.bool(False)
+process.singleMuTrigAnalyzerMiniAOD.verbose = cms.untracked.bool(True)
 
 process.GlobalTag.globaltag = "80X_dataRun2_2016SeptRepro_v3"
 
